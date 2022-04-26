@@ -1,8 +1,9 @@
 # contains bunch of buggy examples
-# taken from https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03
+# taken from
+# https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03
 import base64
-import flask
 import subprocess
+import flask
 
 # # Input injection
 # def transcode_file(request, filename):
